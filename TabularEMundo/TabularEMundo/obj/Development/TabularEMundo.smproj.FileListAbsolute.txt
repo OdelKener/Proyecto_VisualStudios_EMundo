@@ -1,0 +1,8 @@
+D:\Carr.IngSistemas2023\VIsemestre\BD Analitica\Actividad\TabularEMundo\TabularEMundo\bin\Model.asdatabase
+D:\Carr.IngSistemas2023\VIsemestre\BD Analitica\Actividad\TabularEMundo\TabularEMundo\bin\Model.deploymenttargets
+D:\Carr.IngSistemas2023\VIsemestre\BD Analitica\Actividad\TabularEMundo\TabularEMundo\bin\Model.deploymentoptions
+D:\Carr.IngSistemas2023\VIsemestre\BD Analitica\Actividad\TabularEMundo\TabularEMundo\obj\Development\TabularEMundo.smproj.AssemblyReference.cache
+D:\Carr.IngSistemas2023\VIsemestre\BD Analitica\Actividad\TabularEMundo\TabularEMundo\obj\Development\TabularEMundo.smproj.CoreCompileInputs.cache
+D:\Carr.IngSistemas2023\VIsemestre\BD Analitica\Actividad\TabularEMundo\TabularEMundo\obj\Development\Model.asdatabase
+D:\Carr.IngSistemas2023\VIsemestre\BD Analitica\Actividad\TabularEMundo\TabularEMundo\obj\Development\Model.deploymentoptions
+D:\Carr.IngSistemas2023\VIsemestre\BD Analitica\Actividad\TabularEMundo\TabularEMundo\obj\Development\Model.deploymenttargets

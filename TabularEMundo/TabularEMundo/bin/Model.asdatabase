@@ -1,0 +1,317 @@
+{
+  "name": "TabularEMundo",
+  "compatibilityLevel": 1200,
+  "model": {
+    "name": "Modelo",
+    "culture": "es-NI",
+    "dataSources": [
+      {
+        "name": "SqlServer KABRONKTOMMSSQLSERVER300 EMundoVDW",
+        "connectionString": "Provider=SQLNCLI11;Data Source=KABRONKTOM\\MSSQLSERVER300;Initial Catalog=EMundoVDW;User ID=sa;Persist Security Info=false",
+        "impersonationMode": "impersonateServiceAccount",
+        "annotations": [
+          {
+            "name": "ConnectionEditUISource",
+            "value": "SqlServer"
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "name": "vw_DimFechaSalida",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "string",
+            "sourceColumn": "id",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "Dia",
+            "dataType": "string",
+            "sourceColumn": "Dia",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "Año",
+            "dataType": "string",
+            "sourceColumn": "Año",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "Mes",
+            "dataType": "string",
+            "sourceColumn": "Mes",
+            "sourceProviderType": "WChar"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "vw_DimFechaSalida",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dbo].[vw_DimFechaSalida].*   FROM [dbo].[vw_DimFechaSalida] ",
+              "dataSource": "SqlServer KABRONKTOMMSSQLSERVER300 EMundoVDW"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dbo].[vw_DimFechaSalida].*   FROM [dbo].[vw_DimFechaSalida] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "vw_DimFechaSalida"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "vw_DimLibros",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "sourceColumn": "id",
+            "sourceProviderType": "BigInt"
+          },
+          {
+            "name": "CostoActual",
+            "dataType": "int64",
+            "sourceColumn": "CostoActual",
+            "sourceProviderType": "BigInt"
+          },
+          {
+            "name": "Categoria",
+            "dataType": "string",
+            "sourceColumn": "Categoria",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "Nombre",
+            "dataType": "string",
+            "sourceColumn": "Nombre",
+            "sourceProviderType": "Char"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "vw_DimLibros",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dbo].[vw_DimLibros].*   FROM [dbo].[vw_DimLibros] ",
+              "dataSource": "SqlServer KABRONKTOMMSSQLSERVER300 EMundoVDW"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dbo].[vw_DimLibros].*   FROM [dbo].[vw_DimLibros] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "vw_DimLibros"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "vw_DimSucursal",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "sourceColumn": "id",
+            "sourceProviderType": "BigInt"
+          },
+          {
+            "name": "Nombre",
+            "dataType": "string",
+            "sourceColumn": "Nombre",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "Codigo",
+            "dataType": "int64",
+            "sourceColumn": "Codigo",
+            "sourceProviderType": "Integer"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "vw_DimSucursal",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dbo].[vw_DimSucursal].*   FROM [dbo].[vw_DimSucursal] ",
+              "dataSource": "SqlServer KABRONKTOMMSSQLSERVER300 EMundoVDW"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dbo].[vw_DimSucursal].*   FROM [dbo].[vw_DimSucursal] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "vw_DimSucursal"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "vw_DimTipoSalida",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "sourceColumn": "id",
+            "sourceProviderType": "BigInt"
+          },
+          {
+            "name": "Nombre",
+            "dataType": "string",
+            "sourceColumn": "Nombre",
+            "sourceProviderType": "WChar"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "vw_DimTipoSalida",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dbo].[vw_DimTipoSalida].*   FROM [dbo].[vw_DimTipoSalida] ",
+              "dataSource": "SqlServer KABRONKTOMMSSQLSERVER300 EMundoVDW"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dbo].[vw_DimTipoSalida].*   FROM [dbo].[vw_DimTipoSalida] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "vw_DimTipoSalida"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      },
+      {
+        "name": "vw_FactSalida",
+        "columns": [
+          {
+            "name": "id",
+            "dataType": "int64",
+            "sourceColumn": "id",
+            "sourceProviderType": "Integer"
+          },
+          {
+            "name": "FechaSalida_id",
+            "dataType": "string",
+            "sourceColumn": "FechaSalida_id",
+            "sourceProviderType": "WChar"
+          },
+          {
+            "name": "Libro_id",
+            "dataType": "int64",
+            "sourceColumn": "Libro_id",
+            "sourceProviderType": "BigInt"
+          },
+          {
+            "name": "Sucursal_id",
+            "dataType": "int64",
+            "sourceColumn": "Sucursal_id",
+            "sourceProviderType": "BigInt"
+          },
+          {
+            "name": "TipoSalida_id",
+            "dataType": "int64",
+            "sourceColumn": "TipoSalida_id",
+            "sourceProviderType": "BigInt"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "vw_FactSalida",
+            "dataView": "full",
+            "source": {
+              "type": "query",
+              "query": " \t\t\t\tSELECT [dbo].[vw_FactSalida].*   FROM [dbo].[vw_FactSalida] ",
+              "dataSource": "SqlServer KABRONKTOMMSSQLSERVER300 EMundoVDW"
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "_TM_ExtProp_QueryDefinition",
+            "value": " \t\t\t\tSELECT [dbo].[vw_FactSalida].*   FROM [dbo].[vw_FactSalida] "
+          },
+          {
+            "name": "_TM_ExtProp_DbTableName",
+            "value": "vw_FactSalida"
+          },
+          {
+            "name": "_TM_ExtProp_DbSchemaName",
+            "value": "dbo"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "25ff3ace-1ecd-4a42-b95a-1ed471ada390",
+        "fromTable": "vw_FactSalida",
+        "fromColumn": "FechaSalida_id",
+        "toTable": "vw_DimFechaSalida",
+        "toColumn": "id"
+      },
+      {
+        "name": "8d50d676-2b31-48f1-8fc7-429ad905d9de",
+        "fromTable": "vw_FactSalida",
+        "fromColumn": "Libro_id",
+        "toTable": "vw_DimLibros",
+        "toColumn": "id"
+      },
+      {
+        "name": "aa53ce36-1028-4b1d-8fc2-759a146cfa7b",
+        "fromTable": "vw_FactSalida",
+        "fromColumn": "Sucursal_id",
+        "toTable": "vw_DimSucursal",
+        "toColumn": "id"
+      },
+      {
+        "name": "7f855f99-7d52-4d85-9f9b-9db6509a9d05",
+        "fromTable": "vw_FactSalida",
+        "fromColumn": "TipoSalida_id",
+        "toTable": "vw_DimTipoSalida",
+        "toColumn": "id"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "ClientCompatibilityLevel",
+        "value": "400"
+      }
+    ]
+  }
+}
