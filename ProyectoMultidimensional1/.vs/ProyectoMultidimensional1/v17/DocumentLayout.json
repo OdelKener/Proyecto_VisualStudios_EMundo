@@ -1,0 +1,111 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\E Mundo VDW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|solutionrelative:ProyectoMultidimensional1\\E Mundo VDW.cube||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Tipo Salida.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|solutionrelative:ProyectoMultidimensional1\\Dim Tipo Salida.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Sucursal.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|solutionrelative:ProyectoMultidimensional1\\Dim Sucursal.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Fecha Salida.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|solutionrelative:ProyectoMultidimensional1\\Dim Fecha Salida.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Libros.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|solutionrelative:ProyectoMultidimensional1\\Dim Libros.dim||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\E Mundo VDW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design",
+      "RelativeMoniker": "D:0:0:{5904F15B-A7CC-ED18-16A8-35B9C28253B6}|ProyectoMultidimensional1\\ProyectoMultidimensional1.dwproj|solutionrelative:ProyectoMultidimensional1\\E Mundo VDW.dsv||{B4191D15-2D32-45F2-906F-E91BBAAA6059}|Design"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Dim Tipo Salida.dim [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Tipo Salida.dim",
+              "RelativeDocumentMoniker": "ProyectoMultidimensional1\\Dim Tipo Salida.dim",
+              "ToolTip": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Tipo Salida.dim [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoMultidimensional1\\Dim Tipo Salida.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-10T05:14:49.521Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Dim Sucursal.dim [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Sucursal.dim",
+              "RelativeDocumentMoniker": "ProyectoMultidimensional1\\Dim Sucursal.dim",
+              "ToolTip": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Sucursal.dim [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoMultidimensional1\\Dim Sucursal.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-10T05:14:48.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dim Fecha Salida.dim [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Fecha Salida.dim",
+              "RelativeDocumentMoniker": "ProyectoMultidimensional1\\Dim Fecha Salida.dim",
+              "ToolTip": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Fecha Salida.dim [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoMultidimensional1\\Dim Fecha Salida.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-10T05:14:48.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Dim Libros.dim [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Libros.dim",
+              "RelativeDocumentMoniker": "ProyectoMultidimensional1\\Dim Libros.dim",
+              "ToolTip": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\Dim Libros.dim [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoMultidimensional1\\Dim Libros.dim [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-10T05:14:47.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "E Mundo VDW.cube [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\E Mundo VDW.cube",
+              "RelativeDocumentMoniker": "ProyectoMultidimensional1\\E Mundo VDW.cube",
+              "ToolTip": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\E Mundo VDW.cube [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoMultidimensional1\\E Mundo VDW.cube [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-02T05:40:43.351Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "E Mundo VDW.dsv [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\E Mundo VDW.dsv",
+              "RelativeDocumentMoniker": "ProyectoMultidimensional1\\E Mundo VDW.dsv",
+              "ToolTip": "D:\\Carr.IngSistemas2023\\VIsemestre\\BD Analitica\\Actividad\\ProyectoMultidimensional1\\ProyectoMultidimensional1\\E Mundo VDW.dsv [Dise\u00F1o]",
+              "RelativeToolTip": "ProyectoMultidimensional1\\E Mundo VDW.dsv [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-02T05:40:13.972Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
